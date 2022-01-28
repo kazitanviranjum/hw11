@@ -100,7 +100,8 @@ nav .container .logo {
 
 
 nav ul li a:hover {
-    color: #CFC91D
+    color: #CFC91D;
+ transform: scale(1.5);
 }
 
 
