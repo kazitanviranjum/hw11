@@ -1,0 +1,236 @@
+/*-----Common CSS STart*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    background: #02918C;
+}
+
+.container {
+    width: 1220px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.sec-ttl h2 {
+    font-size: 46px;
+    color: #02918C;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.sec-ttl p {
+    font-size: 16px;
+    color: #7e8287;
+    margin: auto;
+    line-height: 41px;
+}
+
+.sec-ttl p span {
+    font-weight: 800;
+    font-size: 23px;
+}
+
+
+/*-----Common CSS STart*/
+
+
+/*-----Nav CSS STart*/
+
+
+nav .container>.row {
+    display: flex;
+    align-items: center;
+}
+
+nav .container .menu {
+    width: 70%;
+}
+
+nav .container .logo {
+    width: 30%;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: end;
+}
+
+.menu ul li {
+    margin: 22px 0;
+    
+    text-align: right;
+}
+
+.menu ul li a {
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 0 25px;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+	transition: all .2s linear;
+}
+
+
+
+nav ul li a:hover {
+    color: #CFC91D
+}
+
+
+/*-----Nav CSS End*/
+
+
+/*-----Banner CSS STart*/
+
+.banner {
+    background-image: url(..//images/slider.jpg);
+    height: 800px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    z-index: 1;
+}
+
+.banner::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.66);
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.banner .container,
+.banner .container .row {
+    height: 100%;
+}
+
+.banner .banner-content {
+    width: 100%;
+}
+
+.banner h6 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.banner h1 {
+    color: #ffffff;
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    font-weight: 800;
+}
+
+.banner p {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.banner img.banner-shape {
+    padding: 40px 0;
+    display: block;
+    margin: auto;
+}
+
+.banner a {
+    color: #000000;
+    padding: 10px 52px;
+    background-color: #CFC91D;
+    font-size: 14px;
+    display: inline-block;
+    font-weight: 800;
+    text-transform: uppercase;
+	transition: all .2s linear;
+}
+.banner a:hover{
+	
+	background-color: #000;
+	color: #cfc91d;
+}
+
+
+/*-----Banner CSS End*/
+
+
+/*-----About Me CSS Start*/
+
+#about {
+    padding: 70px 0;
+}
+
+#about .sec-ttl p {
+    width: 934px;
+}
+
+#about .about_item {
+    padding: 0 65px;
+    border-right: 1px solid #D9DBDB;
+    margin-top: 65px;
+	
+	
+}
+
+
+#about .about_item:last-child {
+    border-right: 1px solid transparent;
+}
+
+#about .about_item img {
+    width: 40px;
+	transition: all .2s linear;
+}
+#about .about_item img:hover{
+	background-color:#CFC91D;
+	transform: scale(1.5);
+}
+
+
+#about .about_item h5 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #7E8287;
+    padding: 27px 0;
+}
+
+#about .about_item p {
+    font-size: 11px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #7E8287;
+}
+
+
+/*-----About Me CSS Start*/
